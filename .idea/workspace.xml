@@ -26,10 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SCTopList.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SCTopList.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SCTopList.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="34" selection-start="299" selection-end="299" vertical-scroll-proportion="0.16233766" vertical-offset="0" max-vertical-offset="924">
+            <state line="10" column="34" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="6" selection-start="139" selection-end="139" vertical-scroll-proportion="0.24350649" vertical-offset="0" max-vertical-offset="924">
               <folding />
             </state>
           </provider>
@@ -67,8 +76,8 @@
         <option value="$PROJECT_DIR$/app.rb" />
         <option value="$PROJECT_DIR$/scfunctions.rb" />
         <option value="$PROJECT_DIR$/clientid.txt" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/SCTopList.rb" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -411,16 +420,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/SCTopList.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="5" selection-start="125" selection-end="125" vertical-scroll-proportion="0.21103896" vertical-offset="0" max-vertical-offset="924">
+        <state line="10" column="34" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SCTopList.rb">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="34" selection-start="299" selection-end="299" vertical-scroll-proportion="0.16233766" vertical-offset="0" max-vertical-offset="924">
+        <state line="15" column="6" selection-start="139" selection-end="139" vertical-scroll-proportion="0.24350649" vertical-offset="0" max-vertical-offset="924">
           <folding />
         </state>
       </provider>
