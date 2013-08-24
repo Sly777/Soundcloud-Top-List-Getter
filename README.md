@@ -19,7 +19,8 @@ Other examples:
 
 ## Usage
 
-Firstly, you must run this command : **bundle install**
+Firstly, enter your **Soundcloud Client ID** to **SCTopList.rb**
+After that, run this command : **bundle install**
 
 **SCTopList [options]**
 
