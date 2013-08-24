@@ -8,19 +8,19 @@ You can use it for getting all information about Countries and Music Genres. It 
 ## Examples
 
 This command does show all top countries of all genres in json format with geolocation info
-**ruby SCTopList.rb -a -j -g**
+> **ruby SCTopList.rb -a -j -g**
 
 This command does show all top countries of any similar genres
-**ruby SCTopList.rb -s Rock**
+> **ruby SCTopList.rb -s Rock**
 
 Other examples:
-**ruby SCTopList.rb -l 100 -c Rock**
-**ruby SCTopList.rb -s Rock -f**
+> **ruby SCTopList.rb -l 100 -c Rock**
+> **ruby SCTopList.rb -s Rock -f**
 
 ## Usage
 
-Firstly, enter your **Soundcloud Client ID** to **SCTopList.rb**
-After that, run this command : **bundle install**
+> Firstly, enter your **Soundcloud Client ID** to **SCTopList.rb**
+> After that, run this command : **bundle install**
 
 **ruby SCTopList.rb [options]**
 
