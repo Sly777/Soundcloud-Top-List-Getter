@@ -4,8 +4,8 @@ require 'colorize'
 class Cli
   def initialize
     @optparse = OptionParser.new do |opts|
-      opts.banner = "\n----------------- Soundcloud Top List Getter -----------------\n".colorize(:yellow) +
-          "Usage: SCTopList.rb [options]".colorize(:green)
+      opts.banner = "\n----------------- Soundcloud Top Country List -----------------\n".colorize(:yellow) +
+          "Usage: SCTopList [options]".colorize(:green)
 
       opts.separator ""
       opts.separator "Specific options:".colorize(:magenta)
@@ -57,7 +57,7 @@ class Cli
       control
 
       rescue OptionParser::InvalidOption, OptionParser::MissingArgument
-      puts "\nSoundcloud Top List Getter Argument Problem. Please run with --help to see arguments\n".colorize(:yellow)
+      puts "\nSoundcloud Top Country List Argument Problem. Please run with --help to see arguments\n".colorize(:yellow)
       #puts @optparse
       exit
     end
@@ -74,7 +74,7 @@ class Cli
     }
 
     if not missing
-      puts "\nSoundcloud Top List Getter Argument Problem. Please run with --help to see arguments\n".colorize(:yellow)
+      puts "\nSoundcloud Top Country List Argument Problem. Please run with --help to see arguments\n".colorize(:yellow)
       #puts @optparse
       exit
     end
