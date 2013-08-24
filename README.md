@@ -27,13 +27,13 @@ For help use: **SCTopList -h**
 
 ## Options
 
-*  -a, --all                     Show All Categories
-*  -s <similar>, --similar       Show Similar Categories
-*  -c <category>, --category     Show This Category Only
-*  -j, --json                    Show Data in JSON
-*  -g, --geo                     Show Data with Location Parameters
-*  -f, --file                    Create Report File
-*  -l <limit>, --limit           Max number of Categories (recommended)
+*  **-a, --all** :                      Show All Categories
+*  **-s <similar>, --similar** :        Show Similar Categories
+*  **-c <category>, --category** :      Show This Category Only
+*  **-j, --json** :                     Show Data in JSON
+*  **-g, --geo** :                      Show Data with Location Parameters
+*  **-f, --file** :                     Create Report File
+*  **-l <limit>, --limit** :            Max number of Categories (recommended)
 
 ## Author
 
