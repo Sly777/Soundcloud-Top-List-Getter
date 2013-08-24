@@ -14,13 +14,19 @@ This command does show all top countries of any similar genres
 > **ruby SCTopList.rb -s Rock**
 
 Other examples:
+>
 > **ruby SCTopList.rb -l 100 -c Rock**
+>
 > **ruby SCTopList.rb -s Rock -f**
+>
 
 ## Usage
 
+>
 > Firstly, enter your **Soundcloud Client ID** to **SCTopList.rb**
+>
 > After that, run this command : **bundle install**
+>
 
 **ruby SCTopList.rb [options]**
 
