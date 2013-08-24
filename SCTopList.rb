@@ -7,20 +7,21 @@
 #
 # == Examples
 #   This command does show all top countries of all genres in json format with geolocation info
-#     SCTopList -a -j -g
+#     ruby SCTopList.rb -a -j -g
 #
 #   This command does show all top countries of any similar genres
-#     SCTopList -s Rock
+#     ruby SCTopList.rb -s Rock
 #
 #   Other examples:
-#     SCTopList -l 100 -c Rock
-#     SCTopList -s Rock -f
+#     ruby SCTopList.rb -l 100 -c Rock
+#     ruby SCTopList.rb -s Rock -f
 #
 # == Usage
-#   Firstly, you must run this command : bundle install
-#   SCTopList [options]
+#   Firstly, enter your **Soundcloud Client ID** to **SCTopList.rb**
+#   After that, run this command : **bundle install**
+#   ruby SCTopList.rb [options]
 #
-#   For help use: SCTopList -h
+#   For help use: ruby SCTopList.rb -h
 #
 # == Options
 #   -a, --all                     Show All Categories
@@ -44,7 +45,7 @@ require './cli'
 
 VERSION = "0.0.1"
 
-$clientid = 'CLIENTID' # You must change this with your Client ID before use it
+$clientid = 'CLIENT_ID' # You must change this with your Client ID before use it
 $client = Soundcloud.new(:client_id => $clientid)
 $scFuncs = Scfunctions.new($client)
 $options = {}

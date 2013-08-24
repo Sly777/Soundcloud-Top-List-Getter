@@ -124,7 +124,12 @@ class Scfunctions
 
       i = 1
       collection.first(10).each { |key, value|
-        tmpText += selectColor("#{key} : #{value["Value"]} [Geocode: #{value["geolocation"][:latitude]}, #{value["geolocation"][:longitude]}]\n", i)
+        if $options[:file].nil? then
+          tmpText += selectColor("#{key} : #{value["Value"]}\n", i)
+        else
+          tmpText += selectColor("#{key} : #{value["Value"]} [Geocode: #{value["geolocation"][:latitude]}, #{value["geolocation"][:longitude]}]\n", i)
+        end
+
         i+=1
       }
 
