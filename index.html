@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640" />
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Soundcloud Top Country List by Sly777</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/Sly777/Soundcloud-Top-List-Getter">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Soundcloud Top Country List</h1>
+            <h2>Soundcloud Top Country List with Ruby</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/Sly777/Soundcloud-Top-List-Getter/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/Sly777/Soundcloud-Top-List-Getter/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h1>
+<a name="soundcloud-top-country-list" class="anchor" href="#soundcloud-top-country-list"><span class="octicon octicon-link"></span></a>Soundcloud Top Country List</h1>
+
+<p>This is created for Soundcloud Contest but you can use it on your projects easily.</p>
+
+<p>You can use it for getting all information about Countries and Music Genres. It gives which countries are on top list on any genre. Also you can filter data with app options, get data in json format, create text file and get data with Geolocation of countries.</p>
+
+<h2>
+<a name="examples" class="anchor" href="#examples"><span class="octicon octicon-link"></span></a>Examples</h2>
+
+<p>This command does show all top countries of all genres in json format with geolocation info</p>
+
+<blockquote>
+<p><strong>ruby SCTopList.rb -a -j -g</strong></p>
+</blockquote>
+
+<p>This command does show all top countries of any similar genres</p>
+
+<blockquote>
+<p><strong>ruby SCTopList.rb -s Rock</strong></p>
+</blockquote>
+
+<p>Other examples:</p>
+
+<blockquote>
+<p><strong>ruby SCTopList.rb -l 100 -c Rock</strong>
+<strong>ruby SCTopList.rb -s Rock -f</strong></p>
+</blockquote>
+
+<h2>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<blockquote>
+<p>Firstly, enter your <strong>Soundcloud Client ID</strong> to <strong>SCTopList.rb</strong>
+After that, run this command : <strong>bundle install</strong></p>
+</blockquote>
+
+<p><strong>ruby SCTopList.rb [options]</strong></p>
+
+<p>For help use: <strong>ruby SCTopList.rb -h</strong></p>
+
+<h2>
+<a name="options" class="anchor" href="#options"><span class="octicon octicon-link"></span></a>Options</h2>
+
+<ul>
+<li> <strong>-a, --all</strong> :                      Show All Categories</li>
+<li> <strong>-s , --similar</strong> :        Show Similar Categories</li>
+<li> <strong>-c , --category</strong> :      Show This Category Only</li>
+<li> <strong>-j, --json</strong> :                     Show Data in JSON</li>
+<li> <strong>-g, --geo</strong> :                      Show Data with Location Parameters</li>
+<li> <strong>-f, --file</strong> :                     Create Report File</li>
+<li> <strong>-l , --limit</strong> :            Max number of Categories (recommended)</li>
+</ul><h2>
+<a name="author" class="anchor" href="#author"><span class="octicon octicon-link"></span></a>Author</h2>
+
+<p><a href="http://ilkerguller.com/" title="İlker Güller">İlker Güller</a></p>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/Sly777">Sly777</a> can be found on <a href="https://github.com/Sly777/Soundcloud-Top-List-Getter">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
